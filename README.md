@@ -16,3 +16,11 @@ Objetivos del proyecto:
 •	Implementar relaciones entre modelos (uno a muchos).
 •	Usar formularios de Django con validaciones personalizadas.
 •	Proteger vistas utilizando el sistema de autenticación de Django.
+
+
+
+Actualización (5 de septiembre de 2024):
+
+actualmente permite registrar eventos nuevos. Sin embargo, se está utilizando un dropdownlist para escoger organizadores, pero no hay organizadores registrados y por ende, no se pueden registrar eventos.
+
+![alt text](image-2.png)
