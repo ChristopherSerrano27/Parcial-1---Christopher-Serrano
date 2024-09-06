@@ -1,0 +1,13 @@
+<h1>Lista de Organizadores</h1>
+
+{% if organizadores %}
+    <ul>
+        {% for organizador in organizadores %}
+            <li>{{ organizador.nombre }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No hay organizadores disponibles.</p>
+{% endif %}
+
+<a href="{% url 'crear_organizador' %}">Crear un nuevo organizador</a>
