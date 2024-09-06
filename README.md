@@ -24,3 +24,24 @@ Actualización (5 de septiembre de 2024):
 actualmente permite registrar eventos nuevos. Sin embargo, se está utilizando un dropdownlist para escoger organizadores, pero no hay organizadores registrados y por ende, no se pueden registrar eventos.
 
 ![alt text](image-2.png)
+
+
+Actualización (6 de septiembre de 2024):
+
+Desarrollado el punto 2.4, ahora se pueden añadir organizadores a la lista, y por ende, añadir eventos:
+
+Seccion de Organizadores (/organizadores/ y /organizadores/crear/):
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-3.png)
+
+Ahora, en la sección de Eventos (/eventos/ y /eventos/crear/):
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
