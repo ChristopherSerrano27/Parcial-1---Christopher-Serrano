@@ -1,0 +1,9 @@
+<h1>Confirmar eliminación</h1>
+
+<p>¿Estás seguro de que deseas eliminar "{{ object }}"?</p>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Confirmar eliminación</button>
+    <a href="{% url 'eventos_lista' %}">Cancelar</a>
+</form>
