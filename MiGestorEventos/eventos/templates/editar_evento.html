@@ -6,4 +6,9 @@
     <button type="submit">Guardar cambios</button>
 </form>
 
+<form method="post" action="{% url 'eliminar_evento' pk=evento.pk %}">
+    {% csrf_token %}
+    <button type="submit" onclick="return confirm('¿Estás seguro de que quieres eliminar este evento?');">Eliminar evento</button>
+</form>
+
 <a href="{% url 'eventos_lista' %}">Volver a la lista de eventos</a>
