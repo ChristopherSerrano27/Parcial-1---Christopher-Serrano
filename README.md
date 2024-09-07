@@ -45,3 +45,16 @@ Ahora, en la sección de Eventos (/eventos/ y /eventos/crear/):
 ![alt text](image-5.png)
 
 ![alt text](image-6.png)
+
+
+Finalmente, se desarrolló el punto 2.5:
+
+Aquí se desarrolló el punto 2.5 del examen parcial. Se implementaron las siguientes funcionalidades:
+
+    - Sistema de Login y Logout
+    - Edición de Eventos; Requiere Login
+    - Eliminación de Eventos ; Requiere Login
+    - Una simple pagina de Inicio
+    -Todos los .htmls, views y demás necesarios para los cambios mencionados arriba
+    
+
